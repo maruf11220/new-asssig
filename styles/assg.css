@@ -1,0 +1,165 @@
+.container2 {
+    width: 1570px;
+    height: 500px;
+    border-radius: 16px;
+    /* background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
+}
+body{
+    background-color: #ffffff;
+    list-style: none;
+    margin: 0 7%;
+}
+
+header nav{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.logo h3{
+    font-size: 35px;
+    
+   
+    
+}
+.logo h3 span{
+    color: #ff5500;
+    
+}
+.links ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 40px;
+    font-size: 17px;
+    font-weight: 500;
+
+}
+.links ul li span{
+    color: #ff5500;
+    font-weight: 600;
+}
+/* .photo-container{
+    z-index: -2;
+    background-image: url(heroPhoto.png);
+    background-position: center;
+
+}  */
+.container2 {
+    position: relative;
+    text-align: center;
+    color:#FFF;
+}
+
+.botton-left {
+    position: absolute;
+    bottom: 8px;
+    left:550px;
+    top:15%;
+    font-size:30px;
+}
+.pragraph {
+    position: absolute;
+    left:550px;
+    top: 40%;
+
+}
+.where button{
+    position: absolute;
+    left:520px;
+    top:70%;
+    border-radius: 5px;
+    width:130px;
+    height: 40px;
+    
+
+    
+}   
+
+.when button{
+    position: absolute;
+    left: 680px;
+    top:70% ;
+    border-radius: 5px;
+    width:130px;
+    height: 40px;
+    
+}
+.select button{
+    position: absolute;
+    left: 840px;
+    top: 70%;
+    border-radius: 5px;
+    width:130px;
+    height: 40px;
+    
+}
+.find button {
+    position: absolute;
+    left:1000px;
+    top: 70%;
+    border-radius:5px;
+    width: 130px;
+    height: 40px;
+    flex-shrink: 0;
+    background-color: #FF5400;;
+}  
+/*     
+section div h1{
+    width: 355PX;
+    height: 55PX;
+    font-weight:6;
+}
+     
+ */
+.new-button{
+    border-radius: 5px;
+    width: 130px;
+    height: 40px;
+    background-color: #FF5400;
+    
+    
+} 
+.new-image{
+    position: relative;
+    display: flex;
+    align-items:center;
+    justify-content:right;
+    top: -350px;
+    /* width: 540px;
+    height: 550px; */
+    
+    
+} 
+
+
+/* .new-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    vertical-align: middle;
+} */
+.Your{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 480px; */
+    height: 50px;
+    margin-top: -260px;
+
+}
+.br{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
